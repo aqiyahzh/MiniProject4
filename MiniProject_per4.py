@@ -322,13 +322,13 @@ while True:
 
     if kode == '1':
         toko.tampil()
-        konfir = input('''Apakah anda ingin melakukan seusatu? x/y/z: 
+        konfir = input('''
+        Apakah anda ingin melakukan seusatu? x/y/z: 
         x untuk melakukan shorting
         y untuk mencari data
         z untuk kembali ke menu utama
         
-        Masukkan jawaban anda (x/y/z): 
-        ''')
+        Masukkan jawaban anda (x/y/z): ''')
         if konfir == 'x':
             tampil_sort()
         elif konfir == 'y':
