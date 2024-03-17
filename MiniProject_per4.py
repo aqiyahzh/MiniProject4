@@ -309,6 +309,12 @@ def menu():
 
 toko = TokoATK()
 
+toko.tambah({'ID': 'ATK001', 'Nama Produk': 'Pensil', 'Harga': 5000, 'Stok': 100})
+toko.tambah({'ID': 'ATK002', 'Nama Produk': 'Buku Tulis', 'Harga': 10000, 'Stok': 50})
+toko.tambah({'ID': 'ATK003', 'Nama Produk': 'Penghapus', 'Harga': 2000, 'Stok': 200})
+toko.tambah({'ID': 'ATK004', 'Nama Produk': 'Kertas Karton', 'Harga': 5000, 'Stok': 35})
+toko.tambah({'ID': 'ATK005', 'Nama Produk': 'TipeX', 'Harga': 8000, 'Stok': 65})
+
 # Menambahkan opsi sorting ke menu utama
 while True:
     menu()
